@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.counter-box {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
